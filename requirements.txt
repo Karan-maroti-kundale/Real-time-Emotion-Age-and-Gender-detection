@@ -1,0 +1,33 @@
+# -------------------------------------------------------
+# 🔥 CORE ML + VISION
+# -------------------------------------------------------
+torch==2.1.0
+torchvision==0.16.0
+opencv-python
+numpy==1.24.4
+pandas
+scikit-learn
+tqdm
+matplotlib
+pillow
+scipy
+
+# -------------------------------------------------------
+# 🔥 DEEPFACE (Age + Gender)
+# Compatible with TF 2.15.x
+# -------------------------------------------------------
+deepface==0.0.93
+tensorflow==2.15.0
+keras==2.15.0
+tf-keras
+retina-face==0.0.15
+
+# -------------------------------------------------------
+# ⚡ ONNX (Fast Emotion CNN)
+# -------------------------------------------------------
+onnx>=1.16
+
+
+onnxruntime==1.18.0
+onnxscript==0.5.1
+ml-dtypes==0.2.0   # Required for TF 2.15 compatibility
