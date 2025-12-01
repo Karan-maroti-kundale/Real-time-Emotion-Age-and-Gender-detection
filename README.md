@@ -151,4 +151,3 @@ If you'd like, I can also generate:
 - Lightweight README variants for GitHub release
 - Test cases and CI examples
 - Performance profiling summary
-
