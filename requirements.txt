@@ -26,8 +26,6 @@ retina-face==0.0.15
 # ⚡ ONNX (Fast Emotion CNN)
 # -------------------------------------------------------
 onnx>=1.16
-
-
 onnxruntime==1.18.0
 onnxscript==0.5.1
 ml-dtypes==0.2.0   # Required for TF 2.15 compatibility
