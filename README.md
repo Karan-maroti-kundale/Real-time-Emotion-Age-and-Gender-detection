@@ -58,12 +58,6 @@ Final Output → Smoothing → On-screen Overlay
 ## 📦 Project Structure
 ```
 AI-Powered-Emotion-Age-Gender-Detection/
-│── data/
-│   ├── Emotion/
-│   └── Age_Gender/
-│── models/
-│   ├── multitask_cnn.pth
-│   └── multitask_cnn.onnx (optional)
 │── src/
 │   ├── infer.py
 │   ├── train.py
