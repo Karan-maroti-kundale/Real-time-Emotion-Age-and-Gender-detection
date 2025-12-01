@@ -1,0 +1,93 @@
+# ----------------------------------
+# Python
+# ----------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ----------------------------------
+# Virtual Environment
+# ----------------------------------
+venv/
+env/
+ENV/
+.venv/
+.venv*/
+
+# ----------------------------------
+# PyTorch Models / Checkpoints
+# ----------------------------------
+*.pth
+*.pt
+*.ckpt
+
+# ONNX Exported Model
+*.onnx
+
+# ----------------------------------
+# DeepFace / Face Detectors
+# ----------------------------------
+~/.deepface/
+deepface_cache/
+retinaface/
+detector_store/
+
+# ----------------------------------
+# Build Artifacts
+# ----------------------------------
+build/
+dist/
+*.spec
+
+# ----------------------------------
+# Jupyter Notebook
+# ----------------------------------
+.ipynb_checkpoints/
+
+# ----------------------------------
+# VSCode / IDE
+# ----------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ----------------------------------
+# System Files
+# ----------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------
+# Project Specific
+# ----------------------------------
+
+# Datasets (optional – if large)
+data/Emotion/
+data/Age_Gender/
+data/*
+
+# Videos / Outputs
+output.mp4
+*.avi
+*.mp4
+*.txt
+# Temporary storage
+tmp/
+temp/
+cache/
+*.md
+data/
+models/
